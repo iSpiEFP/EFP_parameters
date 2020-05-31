@@ -1,0 +1,31 @@
+# setting up a schedule for a gitHub action (based on time - can also base them on push, pull, etc):
+#   https://jasonet.co/posts/scheduled-actions/
+# running a python script in a gitHub action:
+#   https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions
+#   https://github.community/t/how-to-setup-github-actions-to-run-my-python-script-on-schedule/18335/2
+# specify a working directory for a gitHub action:
+#   https://github.community/t5/GitHub-Actions/use-working-directory-for-entire-job/td-p/36759
+
+name: "efp to json conversion"
+on:
+  // at the end of every day
+  schedule:
+  - cron: * 23 * * *
+
+jobs:
+  efpToJsonConversion:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Re-creating libraryMeta.json
+      run: |
+        rm ./libraryMeta.json
+        echo -e "{ \"metaDataObjects\": [" > ./libraryMeta.json
+        for FILE in $(find | grep .efp | sort); do python3 ./extractMetaModified.py $FILE; echo "," >> ./libraryMeta.json; done
+        sed -i '$ s/.$/]}/' ./libraryMeta.json # removing residual comma and replacing with enclosing ]}, https://stackoverflow.com/questions/27305177/how-can-i-remove-the-last-character-of-a-file-in-unix
