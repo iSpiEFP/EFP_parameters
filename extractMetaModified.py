@@ -245,7 +245,7 @@ class Metadata:
 def main():
     efpFile = sys.argv[1]
     if efpFile[-4:] == ".efp":
-      metaPath = "libraryMeta.json"
+      metaPath = "libraryMeta_new.json"
       meta = Metadata(efpFile)
       meta.toJSON(metaPath)
     else:
