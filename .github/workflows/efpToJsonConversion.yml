@@ -25,7 +25,7 @@ jobs:
         python-version: 3.8
     - name: Re-creating libraryMeta.json
       run: |
-        rm ./libraryMeta.json
-        echo -e "{ \"metaDataObjects\": [" > ./libraryMeta.json
-        for FILE in $(find | grep .efp | sort); do python3 ./extractMetaModified.py $FILE; echo "," >> ./libraryMeta.json; done
-        sed -i '$ s/.$/]}/' ./libraryMeta.json # removing residual comma and replacing with enclosing ]}, https://stackoverflow.com/questions/27305177/how-can-i-remove-the-last-character-of-a-file-in-unix
+        echo -e "{ \"metaDataObjects\": [" > ./libraryMeta_new.json
+        for FILE in $(find | grep .efp | sort); do python3 ./extractMetaModified.py $FILE; echo "," >> ./libraryMeta_new.json; done
+        sed -i '$ s/.$/]}/' ./libraryMeta_new.json # removing residual comma and replacing with enclosing ]}, https://stackoverflow.com/questions/27305177/how-can-i-remove-the-last-character-of-a-file-in-unix
+        mv ./libraryMeta_new.json ./libraryMeta.json
