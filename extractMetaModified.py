@@ -113,7 +113,7 @@ class Metadata:
     def __init__(self, fileName):
         self.bitmap = 0
         self.state = CurrentField.INITIAL
-        self.fromFile = fileName
+        self.fromFile = fileName[2:]
         self.scftype = ""
         self.basisSet = ""
         self.coordinates = []
