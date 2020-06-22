@@ -1,6 +1,7 @@
 { "metaDataObjects": [
+,
 {
-    "fromFile": "./acetone.efp",
+    "fromFile": "acetone.efp",
     "fragmentName": "acetone_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -29,7 +30,7 @@
 }
 ,
 {
-    "fromFile": "./c2h5oh.efp",
+    "fromFile": "c2h5oh.efp",
     "fragmentName": "c2h5oh_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -56,7 +57,7 @@
 }
 ,
 {
-    "fromFile": "./c6h6.efp",
+    "fromFile": "c6h6.efp",
     "fragmentName": "c6h6_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -90,7 +91,7 @@
 }
 ,
 {
-    "fromFile": "./ccl4.efp",
+    "fromFile": "ccl4.efp",
     "fragmentName": "ccl4_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -109,7 +110,7 @@
 }
 ,
 {
-    "fromFile": "./ch3oh.efp",
+    "fromFile": "ch3oh.efp",
     "fragmentName": "ch3oh_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -130,7 +131,7 @@
 }
 ,
 {
-    "fromFile": "./ch4.efp",
+    "fromFile": "ch4.efp",
     "fragmentName": "ch4_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -149,7 +150,7 @@
 }
 ,
 {
-    "fromFile": "./cl2.efp",
+    "fromFile": "cl2.efp",
     "fragmentName": "cl2_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -162,7 +163,7 @@
 }
 ,
 {
-    "fromFile": "./dcm.efp",
+    "fromFile": "dcm.efp",
     "fragmentName": "dcm_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -181,7 +182,7 @@
 }
 ,
 {
-    "fromFile": "./dmso.efp",
+    "fromFile": "dmso.efp",
     "fragmentName": "dmso_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -210,7 +211,7 @@
 }
 ,
 {
-    "fromFile": "./ethane.efp",
+    "fromFile": "ethane.efp",
     "fragmentName": "ethane_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -235,7 +236,7 @@
 }
 ,
 {
-    "fromFile": "./h2.efp",
+    "fromFile": "h2.efp",
     "fragmentName": "h2_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -247,7 +248,7 @@
 }
 ,
 {
-    "fromFile": "./h2o.efp",
+    "fromFile": "h2o.efp",
     "fragmentName": "h2o_l",
     "scf_type": "RHF",
     "basisSet": "6-311++G(3df,2p)",
@@ -262,7 +263,7 @@
 }
 ,
 {
-    "fromFile": "./nh3.efp",
+    "fromFile": "nh3.efp",
     "fragmentName": "nh3_l",
     "scf_type": "RHF",
     "basisSet": "6-311++G(3df,2p)",
@@ -279,7 +280,7 @@
 }
 ,
 {
-    "fromFile": "./pentacene.efp",
+    "fromFile": "pentacene.efp",
     "fragmentName": "pentacene_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
@@ -365,7 +366,7 @@
 }
 ,
 {
-    "fromFile": "./s22/ADENI2.efp",
+    "fromFile": "s22/ADENI2.efp",
     "fragmentName": "adenin",
     "scf_type": "",
     "basisSet": "",
@@ -406,7 +407,7 @@
 }
 ,
 {
-    "fromFile": "./s22/ADENIN.efp",
+    "fromFile": "s22/ADENIN.efp",
     "fragmentName": "adeni",
     "scf_type": "",
     "basisSet": "",
@@ -447,7 +448,7 @@
 }
 ,
 {
-    "fromFile": "./s22/AMINOP.efp",
+    "fromFile": "s22/AMINOP.efp",
     "fragmentName": "aminop",
     "scf_type": "",
     "basisSet": "",
@@ -483,7 +484,7 @@
 }
 ,
 {
-    "fromFile": "./s22/AMONIA.efp",
+    "fromFile": "s22/AMONIA.efp",
     "fragmentName": "amonia",
     "scf_type": "",
     "basisSet": "",
@@ -500,7 +501,7 @@
 }
 ,
 {
-    "fromFile": "./s22/BENZEN.efp",
+    "fromFile": "s22/BENZEN.efp",
     "fragmentName": "benzen",
     "scf_type": "",
     "basisSet": "",
@@ -534,7 +535,7 @@
 }
 ,
 {
-    "fromFile": "./s22/ETHENE.efp",
+    "fromFile": "s22/ETHENE.efp",
     "fragmentName": "ethene",
     "scf_type": "",
     "basisSet": "",
@@ -555,7 +556,7 @@
 }
 ,
 {
-    "fromFile": "./s22/ETHYNE.efp",
+    "fromFile": "s22/ETHYNE.efp",
     "fragmentName": "ethyne",
     "scf_type": "",
     "basisSet": "",
@@ -573,7 +574,7 @@
 }
 ,
 {
-    "fromFile": "./s22/FORMIC.efp",
+    "fromFile": "s22/FORMIC.efp",
     "fragmentName": "formic",
     "scf_type": "",
     "basisSet": "",
@@ -592,7 +593,7 @@
 }
 ,
 {
-    "fromFile": "./s22/FORMID.efp",
+    "fromFile": "s22/FORMID.efp",
     "fragmentName": "formid",
     "scf_type": "",
     "basisSet": "",
@@ -613,7 +614,7 @@
 }
 ,
 {
-    "fromFile": "./s22/HCN.efp",
+    "fromFile": "s22/HCN.efp",
     "fragmentName": "hcn",
     "scf_type": "",
     "basisSet": "",
@@ -629,7 +630,7 @@
 }
 ,
 {
-    "fromFile": "./s22/INDOLE.efp",
+    "fromFile": "s22/INDOLE.efp",
     "fragmentName": "indole",
     "scf_type": "",
     "basisSet": "",
@@ -672,7 +673,7 @@
 }
 ,
 {
-    "fromFile": "./s22/METHAN.efp",
+    "fromFile": "s22/METHAN.efp",
     "fragmentName": "methan",
     "scf_type": "",
     "basisSet": "",
@@ -691,7 +692,7 @@
 }
 ,
 {
-    "fromFile": "./s22/PHENOL.efp",
+    "fromFile": "s22/PHENOL.efp",
     "fragmentName": "phenol",
     "scf_type": "",
     "basisSet": "",
@@ -727,7 +728,7 @@
 }
 ,
 {
-    "fromFile": "./s22/PYRAZI.efp",
+    "fromFile": "s22/PYRAZI.efp",
     "fragmentName": "pyrazi",
     "scf_type": "",
     "basisSet": "",
@@ -757,7 +758,7 @@
 }
 ,
 {
-    "fromFile": "./s22/PYRIDO.efp",
+    "fromFile": "s22/PYRIDO.efp",
     "fragmentName": "pyrido",
     "scf_type": "",
     "basisSet": "",
@@ -791,7 +792,7 @@
 }
 ,
 {
-    "fromFile": "./s22/THYMI2.efp",
+    "fromFile": "s22/THYMI2.efp",
     "fragmentName": "thymin",
     "scf_type": "",
     "basisSet": "",
@@ -831,7 +832,7 @@
 }
 ,
 {
-    "fromFile": "./s22/THYMIN.efp",
+    "fromFile": "s22/THYMIN.efp",
     "fragmentName": "thymin",
     "scf_type": "",
     "basisSet": "",
@@ -871,7 +872,7 @@
 }
 ,
 {
-    "fromFile": "./s22/URACIL.efp",
+    "fromFile": "s22/URACIL.efp",
     "fragmentName": "uracil",
     "scf_type": "",
     "basisSet": "",
@@ -905,7 +906,7 @@
 }
 ,
 {
-    "fromFile": "./s22/WATER.efp",
+    "fromFile": "s22/WATER.efp",
     "fragmentName": "water",
     "scf_type": "",
     "basisSet": "",
@@ -920,7 +921,7 @@
 }
 ,
 {
-    "fromFile": "./s66/ACNH2B.efp",
+    "fromFile": "s66/ACNH2B.efp",
     "fragmentName": "acnh2b",
     "scf_type": "",
     "basisSet": "",
@@ -947,7 +948,7 @@
 }
 ,
 {
-    "fromFile": "./s66/ACNH2G.efp",
+    "fromFile": "s66/ACNH2G.efp",
     "fragmentName": "acnh2g",
     "scf_type": "",
     "basisSet": "",
@@ -974,7 +975,7 @@
 }
 ,
 {
-    "fromFile": "./s66/ACOHB.efp",
+    "fromFile": "s66/ACOHB.efp",
     "fragmentName": "acohb",
     "scf_type": "",
     "basisSet": "",
@@ -999,7 +1000,7 @@
 }
 ,
 {
-    "fromFile": "./s66/ACOHG.efp",
+    "fromFile": "s66/ACOHG.efp",
     "fragmentName": "acohg",
     "scf_type": "",
     "basisSet": "",
@@ -1024,7 +1025,7 @@
 }
 ,
 {
-    "fromFile": "./s66/CYCPEN.efp",
+    "fromFile": "s66/CYCPEN.efp",
     "fragmentName": "cycpen",
     "scf_type": "",
     "basisSet": "",
@@ -1064,7 +1065,7 @@
 }
 ,
 {
-    "fromFile": "./s66/MENH2.efp",
+    "fromFile": "s66/MENH2.efp",
     "fragmentName": "menh2",
     "scf_type": "",
     "basisSet": "",
@@ -1087,7 +1088,7 @@
 }
 ,
 {
-    "fromFile": "./s66/MEOH.efp",
+    "fromFile": "s66/MEOH.efp",
     "fragmentName": "meoh",
     "scf_type": "",
     "basisSet": "",
@@ -1108,7 +1109,7 @@
 }
 ,
 {
-    "fromFile": "./s66/NEOPEN.efp",
+    "fromFile": "s66/NEOPEN.efp",
     "fragmentName": "neopen",
     "scf_type": "",
     "basisSet": "",
@@ -1151,7 +1152,7 @@
 }
 ,
 {
-    "fromFile": "./s66/PENTAN.efp",
+    "fromFile": "s66/PENTAN.efp",
     "fragmentName": "pentan",
     "scf_type": "",
     "basisSet": "",
@@ -1194,7 +1195,7 @@
 }
 ,
 {
-    "fromFile": "./s66/PEPTID.efp",
+    "fromFile": "s66/PEPTID.efp",
     "fragmentName": "peptid",
     "scf_type": "",
     "basisSet": "",
@@ -1227,7 +1228,7 @@
 }
 ,
 {
-    "fromFile": "./s66/PYRIDI.efp",
+    "fromFile": "s66/PYRIDI.efp",
     "fragmentName": "pyridi",
     "scf_type": "",
     "basisSet": "",
@@ -1259,7 +1260,7 @@
 }
 ,
 {
-    "fromFile": "./s66/URACG.efp",
+    "fromFile": "s66/URACG.efp",
     "fragmentName": "uracg",
     "scf_type": "",
     "basisSet": "",
@@ -1293,7 +1294,7 @@
 }
 ,
 {
-    "fromFile": "./tetracene.efp",
+    "fromFile": "tetracene.efp",
     "fragmentName": "tetracene_l",
     "scf_type": "RHF",
     "basisSet": "XXX",
