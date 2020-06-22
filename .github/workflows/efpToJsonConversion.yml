@@ -29,3 +29,13 @@ jobs:
         for FILE in $(find | grep .efp | sort); do python3 ./extractMetaModified.py $FILE; echo "," >> ./libraryMeta_new.json; done
         sed -i '$ s/.$/]}/' ./libraryMeta_new.json # removing residual comma and replacing with enclosing ]}, https://stackoverflow.com/questions/27305177/how-can-i-remove-the-last-character-of-a-file-in-unix
         mv ./libraryMeta_new.json ./libraryMeta.json
+    - name: Commiting changes
+      run: |
+        git config --local user.name  ${{ github.actor }}
+        git add ./libraryMeta.json
+        git commit -m "automated re-building of libraryMeta.json"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
